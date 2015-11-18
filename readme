@@ -1,1 +1,14 @@
-Api:  http://localhost/api/demo/test/
+Ajouter un js: 
+voir public/js/
+
+Ajouter un api:
+voir api/ et controllers/ApiController.php
+Appel:  http://localhost/api/demo/test/
+
+Ajouter html:
+voir views/ et controllers/moduleControlller.php
+
+Ajuster des logs pour ce module:
+voir logging/
+Code: $this->di->get('demoLogger')->logErreur("No module config");
+
