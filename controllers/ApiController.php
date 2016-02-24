@@ -3,10 +3,6 @@
 namespace Demo\Controllers;
 
 class ApiController extends \Phalcon\Mvc\Controller {
-	private $psql = NULL;
-    private $listeFile = NULL;
-    private $pathRafmob = NULL;
-
     public function test($name = NULL) {
     	if($name){
     		echo $name;
